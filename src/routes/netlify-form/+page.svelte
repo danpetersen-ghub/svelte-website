@@ -1,5 +1,7 @@
 <script>
 	// @ts-nocheck
+	// Add this line to export the prerender option
+	export const prerender = true;
 </script>
 
 <h1>Netlify Form</h1>
