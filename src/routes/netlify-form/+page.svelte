@@ -1,6 +1,5 @@
 <script>
 	// @ts-nocheck
-	export const prerender = true;
 </script>
 
 <h1>Netlify Form</h1>
@@ -33,6 +32,7 @@
 	method="POST"
 	netlify-honeypot="bot-field"
 	data-netlify="true"
+	action="/success"
 	style="background-color: forestgreen;border-radius: 5px "
 >
 	<input type="hidden" name="form-name" value="netlify-form-example" />
