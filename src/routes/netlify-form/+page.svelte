@@ -1,5 +1,6 @@
 <script>
 	// @ts-nocheck
+	export const prerender = true;
 </script>
 
 <h1>Netlify Form</h1>
