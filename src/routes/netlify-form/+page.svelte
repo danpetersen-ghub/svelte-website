@@ -4,7 +4,7 @@
 
 <h1>Netlify Form</h1>
 <hr />
-<form name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+<!-- <form name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 	<p>
 		<label>Your Name: <input type="text" name="name" /></label>
 	</p>
@@ -25,6 +25,27 @@
 	<p>
 		<button type="submit">Send</button>
 	</p>
+</form> -->
+
+<form
+	name="netlify-form-example"
+	method="POST"
+	netlify-honeypot="bot-field"
+	data-netlify="true"
+	style="background-color: forestgreen;border-radius: 5px "
+>
+	<input type="hidden" name="form-name" value="netlify-form-example" />
+	<label for="name">Name</label>
+	<input name="name" id="name" required placeholder="Name" type="text" />
+	<label for="email">Email</label>
+	<input name="email" id="email" required placeholder="Email" type="email" />
+	<label for="message">Message</label>
+	<input name="message" id="message" required placeholder="Message" type="text" />
+	<input
+		type="submit"
+		value="Submit"
+		style="background-color: white; border-radius: 5px;margin-top: 20px;"
+	/>
 </form>
 
 <style>
@@ -37,7 +58,7 @@
 	input,
 	textarea,
 	select {
-		width: 100%;
+		width: 97%;
 		padding: 10px;
 		border-radius: 5px;
 		border: 1px solid #ccc;
@@ -59,8 +80,9 @@
 	}
 
 	form {
-		max-width: 500px;
+		max-width: 600px;
 		margin: 0 auto;
+		padding: 20px;
 	}
 
 	h1 {
