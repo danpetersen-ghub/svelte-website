@@ -33,15 +33,15 @@
 		};
 
 		//const response = await openai.listEngines();
+	}
 
-		/**
-		 * @param {{ preventDefault: () => void; }} event
-		 */
-		function handleSubmit(event) {
-			console.log('activated', text);
-			const utterThis = new SpeechSynthesisUtterance(text);
-			synth.speak(utterThis);
-		}
+	// /**
+	//  * @param {{ preventDefault: () => void; }} event
+	//  */
+	function handleSubmit() {
+		console.log('activated', text);
+		// const utterThis = new SpeechSynthesisUtterance(text);
+		// synth.speak(utterThis);
 	}
 </script>
 
