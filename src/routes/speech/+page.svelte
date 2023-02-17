@@ -1,7 +1,13 @@
-<h1>Speech</h1>
-<Speech />
-
-
-<script>
-    import Speech from '../../components/Speech.svelte'
+<!-- <script>
+	import Text-To-Speech from '../../components/Voice/Text-To-Speech.svelte';
 </script>
+
+<h1>Speech</h1>
+<Text-To-Speech /> -->
+<script>
+	import TextToSpeech from '../../components/Voice/Text-To-Speech.svelte';
+</script>
+
+<h1>learning svelte</h1>
+<hr />
+<TextToSpeech />
