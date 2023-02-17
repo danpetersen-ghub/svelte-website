@@ -28,8 +28,28 @@
 </form>
 
 <style>
-	INPUT {
-		color: #000;
-		width: 100%;
+	form {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	input[type='text'] {
+		flex: 1;
+		margin-right: 10px;
+		padding: 10px;
+		font-size: 16px;
+		border: 2px solid #ccc;
+		border-radius: 5px;
+	}
+
+	button[type='submit'] {
+		padding: 10px;
+		font-size: 16px;
+		background-color: #4caf50;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
 	}
 </style>

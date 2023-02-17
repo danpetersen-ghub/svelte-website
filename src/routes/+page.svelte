@@ -9,3 +9,7 @@
 <a href="/openai">openai</a>
 <hr />
 <a href="/speech">speech</a>
+<hr />
+<a href="/netlify-form">netlify-form</a>
+<hr />
+<a href="/netlify-identity">netlify-identity</a>
