@@ -35,10 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-<<<<<<< HEAD
 		"dotenv": "^16.0.3",
-=======
->>>>>>> 72f6ed71a65faceab8d1f1ee07b240c1a1419dac
 		"openai": "^3.1.0"
 	}
 }
