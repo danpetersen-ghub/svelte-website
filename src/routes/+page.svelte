@@ -2,8 +2,7 @@
 <a href="/speech">Speech</a>
 <a href="/about">About</a>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<BodyCopy />
-
-<script>
-    import BodyCopy from '../components/learning.svelte'
-</script>
+<hr>
+<a href="/learning-svelte">learning-svelte</a>
+<hr>
+<a href="/learing-voice">Voice App</a>

@@ -1,5 +1,5 @@
 <script>
-// @ts-nocheck
+    // @ts-nocheck
     let number
 
     let myPromise = new Promise((resolve, reject) => {
