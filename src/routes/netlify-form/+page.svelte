@@ -33,7 +33,8 @@
 	data-netlify="true"
 	netlify
 	action="/success"
-	style="background-color: forestgreen;border-radius: 5px "
+	style="background-color: forestgreen;border-radius: 5px"
+	enctype="application/x-www-form-urlencoded"
 >
 	<input type="hidden" name="form-name" value="dp-test-form" />
 
