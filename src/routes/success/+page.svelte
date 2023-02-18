@@ -1,6 +1,9 @@
 <script>
 	export let message = 'Form submitted successfully!';
+	import NavBar from '../../components/NavBar.svelte';
 </script>
+
+<NavBar />
 
 <div>
 	<div class="container">

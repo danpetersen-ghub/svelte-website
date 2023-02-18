@@ -1,7 +1,9 @@
 <script>
 	// @ts-nocheck
+	import NavBar from '../../components/NavBar.svelte';
 </script>
 
+<NavBar />
 <h1>Netlify Form</h1>
 <hr />
 <!-- <form name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true">

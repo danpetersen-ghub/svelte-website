@@ -1,3 +1,9 @@
+<script>
+	import NavBar from '../components/NavBar.svelte';
+</script>
+
+<NavBar />
+
 <h1>Welcome to SvelteKit</h1>
 
 <br />
