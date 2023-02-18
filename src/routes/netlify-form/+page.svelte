@@ -1,7 +1,3 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script>
 	// @ts-nocheck
 </script>
@@ -40,7 +36,8 @@
 	action="/success"
 	style="background-color: forestgreen;border-radius: 5px "
 >
-	<input type="hidden" form-name="dp-test-form" />
+	<input type="hidden" name="form-name" value="dp-test-form" />
+
 	<label for="name">Name</label>
 	<input name="name" id="name" required placeholder="Name" type="text" />
 	<label for="email">Email</label>
