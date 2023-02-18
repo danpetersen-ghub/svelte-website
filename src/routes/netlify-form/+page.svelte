@@ -30,7 +30,6 @@
 <form
 	name="dp-test-form"
 	method="POST"
-	netlify-honeypot="bot-field"
 	data-netlify="true"
 	netlify
 	action="/success"
