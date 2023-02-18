@@ -1,6 +1,7 @@
 <script>
 	export let message = 'Form submitted successfully!';
 	import NavBar from '../../components/NavBar.svelte';
+	import Footer from '../../components/Footer.svelte';
 </script>
 
 <NavBar />
@@ -18,6 +19,8 @@
 		<p class="message">{message}</p>
 	</div>
 </div>
+
+<Footer />
 
 <style>
 	.container {

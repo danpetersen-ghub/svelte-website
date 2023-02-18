@@ -1,5 +1,6 @@
 <script>
 	import NavBar from '../components/NavBar.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <NavBar />
@@ -19,3 +20,5 @@
 <a href="/netlify-form">netlify-form</a>
 <hr />
 <a href="/netlify-identity">netlify-identity</a>
+
+<Footer />

@@ -1,6 +1,7 @@
 <script>
 	// @ts-nocheck
 	import NavBar from '../../components/NavBar.svelte';
+	import Footer from '../../components/Footer.svelte';
 </script>
 
 <NavBar />
@@ -53,6 +54,8 @@
 	/>
 	<div netlify-recaptcha />
 </form>
+
+<Footer />
 
 <style>
 	/* Add your styles here */
