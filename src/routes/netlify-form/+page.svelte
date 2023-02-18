@@ -32,14 +32,15 @@
 </form> -->
 
 <form
-	name="netlify-form-example"
+	name="dp-test-form"
 	method="POST"
 	netlify-honeypot="bot-field"
 	data-netlify="true"
+	netlify
 	action="/success"
 	style="background-color: forestgreen;border-radius: 5px "
 >
-	<input type="hidden" name="form-name" value="netlify-form-example" />
+	<input type="hidden" form-name="dp-test-form" />
 	<label for="name">Name</label>
 	<input name="name" id="name" required placeholder="Name" type="text" />
 	<label for="email">Email</label>
@@ -51,6 +52,7 @@
 		value="Submit"
 		style="background-color: white; border-radius: 5px;margin-top: 20px;"
 	/>
+	<div netlify-recaptcha />
 </form>
 
 <style>
