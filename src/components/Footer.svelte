@@ -1,8 +1,8 @@
 <script lang="ts">
 	let navLinks: { name: string; url: string }[] = [
 		{ name: 'Home', url: '/' },
-		{ name: 'About', url: '/about' },
-		{ name: 'Contact', url: '/contact' }
+		{ name: 'About', url: '/about' }
+		// { name: 'Contact', url: '/contact' }
 	];
 </script>
 
